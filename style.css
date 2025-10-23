@@ -3,10 +3,10 @@ p {
     color: black;
 }
 
-body {
+html {
     color: rgb(58, 53, 53);
     font-family: 'Courier New', Courier, monospace;
-background :linear-gradient(skyblue, grey, rgb(34, 152, 184))
+    background: linear-gradient(skyblue, grey, rgb(34, 152, 184))
 }
 
 h1 {
@@ -24,46 +24,78 @@ button {
 }
 
 address {
-font-family: 'Times New Roman', Times, serif;  
-  text-align: right;
-}
-fieldset{
-    border: transparent;
-}
-nav{
-box-decoration-break: clone;
-}
-.username{
-    text-align: center;
-}
-.password{
-    text-align: center;
-}
-.login{
-    text-align: center;
-    
-}
-.contact{
+    font-family: 'Times New Roman', Times, serif;
     text-align: right;
 }
-a{ 
+
+form {
+    border: transparent;
+    background-image: url(s.jpeg);
+    background-size: cover;
+    background-attachment: inherit;
+    backface-visibility: unset;
+}
+
+fieldset {
+    border: solid transparent;
+}
+
+
+.username {
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.password {
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.login {
+    text-align: center;
+
+}
+
+.contact {
+    text-align: right;
+}
+
+a {
     text-align: center;
 }
-legend{
+
+legend {
     text-align: center;
+    border: solid black;
+    font-size: x-large;
+    font-variant: small-caps;
 }
-.head{
+
+.head {
     text-align: center;
     text-shadow: 0px 0px 2px black;
 }
-.reset{
+
+.reset {
     text-align: center;
 }
-img{
+
+img {
     animation: cubic-bezier(0.215, 0.610, 0.355, 1);
     animation-duration: 5s;
 }
-hr{
-border-color: black;
-border-style: dashed;
+
+hr {
+    border-color: black;
+    border-style: dashed;
+}
+
+ol {
+    font-size: x-large;
+}
+
+nav ul {
+    display: inline;
 }
