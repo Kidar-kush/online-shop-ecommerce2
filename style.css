@@ -1,0 +1,65 @@
+p {
+    font-size: 20px;
+    color: black;
+}
+
+body {
+    color: rgb(58, 53, 53);
+    font-family: 'Courier New', Courier, monospace;
+background :linear-gradient(skyblue, grey, rgb(34, 152, 184))
+}
+
+h1 {
+    color: rgb(87, 99, 111);
+
+}
+
+br {
+    color: black;
+}
+
+button {
+    color: red;
+    font-style: italic;
+}
+
+address {
+font-family: 'Times New Roman', Times, serif;  
+  text-align: right;
+}
+fieldset{
+    border: transparent;
+}
+nav{
+box-decoration-break: clone;
+}
+.username{
+    text-align: center;
+}
+.password{
+    text-align: center;
+}
+.login{
+    text-align: center;
+    
+}
+.contact{
+    text-align: right;
+}
+a{ 
+    text-align: center;
+}
+legend{
+    text-align: center;
+}
+.head{
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+}
+.reset{
+    text-align: center;
+}
+img{
+    animation: cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-duration: 5s;
+}
