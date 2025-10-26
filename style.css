@@ -1,6 +1,7 @@
 p {
     font-size: 20px;
     color: black;
+    font-size: x-large;
 }
 
 html {
@@ -11,6 +12,7 @@ html {
 
 h1 {
     color: rgb(87, 99, 111);
+    font-size: x-large;
 
 }
 
@@ -30,7 +32,7 @@ address {
 
 form {
     border: transparent;
-    background-image: url(s.jpeg);
+    background-image: url(logo.jpg);
     background-size: cover;
     background-attachment: inherit;
     backface-visibility: unset;
@@ -45,6 +47,7 @@ fieldset {
     text-align: center;
     font-size: x-large;
     font-style: oblique;
+    color: blue;
 }
 
 .password {
@@ -62,8 +65,19 @@ fieldset {
     text-align: right;
 }
 
+.anc {
+    color: aqua;
+    display: inline;
+    text-decoration-color: transparent;
+}
+
 a {
     text-align: center;
+    color: rgba(247, 42, 6, 0.521);
+}
+
+h1 {
+    color: black;
 }
 
 legend {
@@ -76,6 +90,7 @@ legend {
 .head {
     text-align: center;
     text-shadow: 0px 0px 2px black;
+    font-size: x-large
 }
 
 .reset {
@@ -85,6 +100,7 @@ legend {
 img {
     animation: cubic-bezier(0.215, 0.610, 0.355, 1);
     animation-duration: 5s;
+    display: flex;
 }
 
 hr {
@@ -96,6 +112,14 @@ ol {
     font-size: x-large;
 }
 
+body {
+    font-size: x-large;
+}
+
 nav ul {
     display: inline;
+}
+
+.Facebook {
+    color: blue;
 }
